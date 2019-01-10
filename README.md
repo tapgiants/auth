@@ -18,9 +18,9 @@ Renders `AuthComponent` with `auth` property instance of the [`AuthService`](#au
 
 #### Arguments
 
-**AuthComponent**: React.Component - The cache argument is provided by Apollo.
+**AuthComponent**: React.Component - The component that will be rendered if the authentication is successful.
 
-**onLoginFailed**: Function - A callback function. It is executed when AuthService.loggedIn returns false.
+**onLoginFailed**: Function - A callback function. It is called when `AuthService.loggedIn` returns `false`.
 
 ### withAuth example
 ```jsx
