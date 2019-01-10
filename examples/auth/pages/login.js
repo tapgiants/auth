@@ -1,4 +1,5 @@
 import React from 'react';
+import Router from 'next/router';
 import { Mutation } from 'react-apollo';
 import gql from 'graphql-tag';
 import { ApolloWrapper, formatGQLErrors } from '@tapgiants/graphql';
@@ -38,6 +39,8 @@ class Login extends React.Component {
 
       console.log('loggedIn', auth.loggedIn());
       // loggedIn true
+
+      Router.push('/private_page');
     };
 
     const onError = (errors) => {

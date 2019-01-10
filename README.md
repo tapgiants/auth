@@ -24,11 +24,22 @@ Renders `AuthComponent` with `auth` property instance of the [`AuthService`](#au
 
 ### withAuth example
 ```jsx
-export default () => (
-  <ApolloWrapper uri="http://localhost:4001/api">
+import React from 'react';
+import Router from 'next/router';
+import { withAuth } from '@tapgiants/auth';
 
-  </ApolloWrapper>
-);
+const PrivatePage = ({ auth }) => {
+  console.log('Logged in?', auth.loggedIn());
+  console.log('User token', auth.getToken());
+
+  return (
+    <div>
+      Private Content
+    </div>
+  );
+};
+
+export default withAuth(PrivatePage, () => Router.push('/login'));
 ```
 
 ## AuthService API

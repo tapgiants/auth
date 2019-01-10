@@ -16,6 +16,9 @@ Check out [http://localhost:3000](http://localhost:3000)
 
 Examples:
 * login - http://localhost:3000/login
+* register - http://localhost:3000/register
+* logout - http://localhost:3000/logout
+* withAuth - http://localhost:3000/private_page
 
 ## TODO
 
