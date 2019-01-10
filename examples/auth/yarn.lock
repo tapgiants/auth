@@ -708,6 +708,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@tapgiants/auth@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tapgiants/auth/-/auth-1.0.0.tgz#6fd031eaa11dba99a9c64be68b499ace8b3cc139"
+  integrity sha512-HllyxP907roBSVPklTKZSgpbGLFo/nIPmOJFSlAk9hIi2Xiw2lov7FX53C/zdoTxE/qdAYa1YIdrHRO3Z2togw==
+
 "@tapgiants/graphql@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@tapgiants/graphql/-/graphql-1.0.2.tgz#6e509cfd3127640c9f00c6dcef5b03a7aeee2330"
