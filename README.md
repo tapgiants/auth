@@ -1,6 +1,6 @@
 # What is @tapgiants/auth
 
-@tapgiants/auth provides authentication functionality.
+@tapgiants/auth provides authentication and session management functionality.
 
 ## Installation
 
@@ -14,7 +14,7 @@ yarn add @tapgiants/auth
 
 ### withAuth(AuthComponent: React.Component, onLoginFailed: Function):React.Component
 
-Renders `AuthComponent` with `auth` property instance of the `AuthService` class if `AuthService.loggedIn` returns `true`. Otherwise calls `onLoginFailed`.
+Renders `AuthComponent` with `auth` property instance of the [`AuthService`](#authservice-api) class if [`AuthService.loggedIn`](#loggedinboolean) returns `true`. Otherwise calls `onLoginFailed`.
 
 #### Arguments
 
