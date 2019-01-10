@@ -40,7 +40,7 @@ class Login extends React.Component {
       console.log('loggedIn', auth.loggedIn());
       // loggedIn true
 
-      Router.push('/private_page');
+      Router.push('/logout');
     };
 
     const onError = (errors) => {
