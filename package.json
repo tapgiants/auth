@@ -1,7 +1,7 @@
 {
   "name": "@tapgiants/auth",
-  "version": "1.0.0",
-  "description": "React authentication HOC",
+  "version": "1.0.1",
+  "description": "React authentication",
   "main": "build/index.js",
   "repository": "https://github.com/tapgiants/auth.git",
   "author": "Tap Giants",
